@@ -16,15 +16,15 @@ public class Travel {
     private Integer seats;
     private Double price;
 
-    public Travel(String idTravel, String id_driver, String name_driver, String from_place, String to_place, String pass_through, Date published, Date date_travel, Integer seats, Double price) {
+    public Travel(String idTravel, String idDriver, String nameDriver, String fromPlace, String toPlace, String passThrough, Date published, Date dateTravel, Integer seats, Double price) {
         this.idTravel = idTravel;
-        this.idDriver = id_driver;
-        this.nameDriver = name_driver;
-        this.fromPlace = from_place;
-        this.toPlace = to_place;
-        this.passThrough = pass_through;
+        this.idDriver = idDriver;
+        this.nameDriver = nameDriver;
+        this.fromPlace = fromPlace;
+        this.toPlace = toPlace;
+        this.passThrough = passThrough;
         this.published = published;
-        this.dateTravel = date_travel;
+        this.dateTravel = dateTravel;
         this.seats = seats;
         this.price = price;
     }

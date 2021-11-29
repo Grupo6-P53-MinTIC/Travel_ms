@@ -6,8 +6,8 @@ public class City {
     private String codeCity;
     private String nameCity;
 
-    public City(String code_city, String nameCity) {
-        this.codeCity = code_city;
+    public City(String codeCity, String nameCity) {
+        this.codeCity = codeCity;
         this.nameCity = nameCity;
     }
 
